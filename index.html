@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WORLED COUNTRIES LIST</title>
+    <link rel="stylesheet" href="css/home.css" />
+     <link rel="stylesheet" href="css/most.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <!-- start nav bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html">world countries</a>
+          </li>
+
+          <li class="navbar-item"><a href="services.html">languages</a></li>
+          <li class="navbar-item"><a href="skills.html">most population</a></li>
+          <li class="navbar-item"><a href="projects.html">feedback</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end nav bar -->
+    <div class="header">
+      <h1>WORLD COUNTRIES LIST</h1>
+      <p>Total Numbers of countries : 193</p>
+      <div class="buttons">
+        <button id="starting-word">STARTING WORD</button>
+        <button id="find-char">Find char</button>
+        <button id="az">
+          <span class="material-symbols-outlined"> sort_by_alpha </span>
+        </button>
+      </div>
+      <div class="search-box">
+        <input
+          oninput="print()"
+          type="search"
+          id="search"
+          placeholder="Search country..."
+        />
+      </div>
+      <label class="label"></label>
+    </div>
+
+    <div class="container"></div>
+   
+    
+    <script src="javascript/home.js"></script>
+  
+    <script src="https://use.fontawesome.com/348e4b84e5.js"></script>
+  </body>
+</html>
